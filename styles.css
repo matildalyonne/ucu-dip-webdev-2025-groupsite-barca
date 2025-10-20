@@ -1,0 +1,35 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  background-color: #004D98;
+}
+
+.navbar-brand, .nav-link {
+  color: #EDBB00 !important;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #A50044 !important;
+}
+
+.footer {
+  background-color: #004D98;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.table th {
+  background-color: #A50044;
+  color: white;
+}

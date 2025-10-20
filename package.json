@@ -1,0 +1,11 @@
+{
+  "name": "barca",
+  "version": "1.0.0",
+  "description": "A website for Futbol Club Barcelona Femeni",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abwa Jonathan, Kimera William, Mbabazi Natasha Alupo, Mirembe Cynthia Nabbumba, Mutebi Alveen Mulungi",
+  "license": "ISC"
+}
