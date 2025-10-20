@@ -37,7 +37,7 @@
             <h5 class="card-title">Special Edition Aitana Bonmatí Jersey</h5>
             <p class="card-text">Celebrate the Ballon d'Or winner with this limited edition Barça Femení jersey, featuring her name and number.</p>
             <p class="fw-bold text-primary">€89.99</p>
-            <button class="btn btn-warning">Add to Cart</button>
+            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#ticketModal">Buy</button>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@
             <h5 class="card-title">Barça Femení Jumper</h5>
             <p class="card-text">Stay warm and stylish with this blue and claret jumper, featuring the FCB crest embroidered on the chest.</p>
             <p class="fw-bold text-primary">€59.99</p>
-            <button class="btn btn-warning">Add to Cart</button>
+            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#ticketModal">Buy</button>
           </div>
         </div>
       </div>
@@ -59,12 +59,40 @@
             <h5 class="card-title">Barça Mug</h5>
             <p class="card-text">Show your support every morning with a classic ceramic cup featuring the Barcelona Femení crest.</p>
             <p class="fw-bold text-primary">€14.99</p>
-            <button class="btn btn-warning">Add to Cart</button>
+            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#ticketModal">Buy</button>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="modal fade" id="ticketModal" tabindex="-1" aria-labelledby="ticketModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="ticketModalLabel">Buy Tickets</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="buyerName" class="form-label">Full Name</label>
+            <input type="text" id="buyerName" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="buyerEmail" class="form-label">Email Address</label>
+            <input type="email" id="buyerEmail" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="buyerLocation" class="form-label">Location</label>
+            <input type="text" id="buyerLocation" class="form-control" required>
+          </div>
+          <button type="submit" class="btn btn-warning w-100">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
   <div class="footer">© 2025 Barcelona Femení</div>
 
